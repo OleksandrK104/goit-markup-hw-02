@@ -11,6 +11,7 @@
     --btn-filter-hover-color: #ffffff; 
     --btn-filter-background-color: #F4F4FD;
     --button-active-background-color: #404BBF;
+    --section-team-background-color: #F4F4FD;
 }
 /* index+portfolio */
 body {
@@ -105,7 +106,7 @@ body {
     background-color: var(--button-active-background-color);
 }
 /* Section */
-.saction-title {
+.section-title {
     font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
@@ -119,6 +120,12 @@ body {
     line-height: 1.2;
 
     color: var(--secondary-text-color);
+}
+.section.team {
+    background-color: var(--section-team-background-color);
+}
+.img-team {
+    background-color: var(--primary-background-color);
 }
 
 /* Footer */
